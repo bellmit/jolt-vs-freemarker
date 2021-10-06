@@ -1,0 +1,97 @@
+{
+  "transportInstructionId": "",
+  "shipment": [
+    {
+      "primaryId": "",
+      "customerCode": "",
+      "shipFrom": {
+        "primaryId": "",
+        "organisationName": "",
+        "isResidentialAddress": false,
+        "contact": [
+          {
+            "personName": "",
+            "communicationChannel": [
+              {
+                "communicationChannelCode": "EMAIL",
+                "communicationValue": "",
+                "communicationChannelName": ""
+              }
+            ]
+          }
+        ],
+        "address": {
+          "streetAddressOne": "",
+          "streetAddressTwo": "",
+          "streetAddressThree": "",
+          "city": "",
+          "countryCode": "",
+          "name": "",
+          "state": "",
+          "postalCode": "",
+          "geographicalCoordinates": {
+            "latitude": "",
+            "longitude": ""
+          }
+        }
+      },
+      "shipTo": {
+        "primaryId": "",
+        "organisationName": "",
+        "isResidentialAddress": false,
+        "contact": [
+          {
+            "personName": "",
+            "communicationChannel": [
+              {
+                "communicationChannelCode": "EMAIL",
+                "communicationValue": "",
+                "communicationChannelName": ""
+              }
+            ]
+          }
+        ],
+        "address": {
+          "streetAddressOne": "",
+          "streetAddressTwo": "",
+          "streetAddressThree": "",
+          "city": "",
+          "countryCode": "",
+          "name": "",
+          "state": "",
+          "postalCode": "",
+          "geographicalCoordinates": {
+            "latitude": "",
+            "longitude": ""
+          }
+        }
+      },
+      "planned": {
+        "dispatch": {
+          "beginDate": "",
+          "beginTime": "",
+          "endDate": "",
+          "endTime": ""
+        },
+
+      "delivery": {
+          "beginDate": "",
+          "beginTime": "",
+          "endDate": "",
+          "endTime": ""
+        }
+      },
+      "note": [
+        {
+          "isPrintable": false,
+          "message": "",
+          "type": ""
+        }
+      ]
+    }
+  ],
+  "billingTo": {
+    "primaryId": "",
+    "name": ""
+  }
+}
