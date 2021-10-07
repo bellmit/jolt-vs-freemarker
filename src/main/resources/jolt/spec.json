@@ -1,0 +1,12 @@
+[
+  {
+    "operation": "remove",
+    "spec":    {
+      "*": {
+        "page":"",
+        "date":""
+
+      }
+    }
+  }
+]
