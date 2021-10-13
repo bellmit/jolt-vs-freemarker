@@ -45,34 +45,30 @@
             <artifactId>jmh-generator-annprocess</artifactId>
             <version>1.28</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jsr310 -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jsr310</artifactId>
+            <version>2.12.5</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.module/jackson-module-parameter-names -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.module</groupId>
+            <artifactId>jackson-module-parameter-names</artifactId>
+            <version>2.11.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jdk8 -->
+        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.module/jackson-modules-java8 -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.module</groupId>
+            <artifactId>jackson-modules-java8</artifactId>
+            <version>2.12.5</version>
+            <type>pom</type>
+            <scope>runtime</scope>
+        </dependency>
+
 
     </dependencies>
 
-    <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-pmd-plugin</artifactId>
-                    <version>3.15.0</version>
-                    <configuration>
-                        <rulesets>
-                            <ruleset>rulesets/java/braces.xml</ruleset>
-                            <ruleset>rulesets/java/naming.xml</ruleset>
-                        </rulesets>
-                        <failOnViolation>true</failOnViolation>
-                        <!-- printFailingErrors is pretty useful -->
-                        <printFailingErrors>true</printFailingErrors>
-                    </configuration>
-                    <executions>
-                        <execution>
-                            <goals>
-                                <goal>check</goal>
-                            </goals>
-                        </execution>
-                    </executions>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
+
 </project>

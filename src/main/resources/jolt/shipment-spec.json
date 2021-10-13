@@ -1,0 +1,113 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "creationDateTime": "creationDateTime",
+      "transportInstructionId": "transportInstructionId",
+      "lastUpdateDateTime": "lastUpdateDateTime",
+      "\\billTo": {
+        "primaryId": "&1.primaryId",
+        "name": "&1.name"
+      },
+      "shipment": {
+        "0": {
+          "transportInstructionTerms": {
+            "transportServiceCategoryType": "shipment.transportServiceCategoryType"
+          },
+          "primaryId": "shipment.primaryId",
+          "customerCode": "shipment.customerCode",
+          "freightTermsCode": "shipment.freightTermsCode",
+          "actualShipDateTime": "shipment.actualShipDateTime",
+          "actualDeliveryDateTime": "shipment.actualDeliveryDateTime",
+          "predictedDeliveryDateTime": "shipment.predictedDeliveryDateTime",
+          "proofOfDeliveryDeliveryDateTime": "shipment.proofOfDeliveryDeliveryDateTime",
+          "deliveryTypeCode": "shipment.deliveryTypeCode",
+          "tmReferenceNumber": {
+            "0": {
+              "referenceNumberName": "shipment.tmReferenceNumberName",
+              "referenceNumberValue": "shipment.tmReferenceNumberValue"
+            }
+          },
+          "note": {
+            "*": {
+              "isPrintable": "shipment.note[&1].isPrintable",
+              "lineNumber": "shipment.note[&1].lineNumber",
+              "text": "shipment.note[&1].text"
+            }
+          },
+          "logisticUnit": {
+            "0": {
+              "primaryId": "shipment.logisticUnit.primaryId",
+              "totalLoadingLength": {
+                "measurementUnitCode": "shipment.logisticUnit.totalLoadingLength.measurementUnitCode",
+                "value": "shipment.logisticUnit.totalLoadingLength.value"
+              }
+            }
+          },
+          "carrier": {
+            "name": "shipment.carrier.name"
+          },
+          "transportReference": {
+            "*": {
+              "entityId": "shipment.transportReference[&1].entityId",
+              "typeCode": "shipment.transportReference[&1].typeCode"
+            }
+          },
+          "plannedDespatch": {
+            "logisticEventPeriod": {
+              "*": "shipment.plannedDespatch.logisticEventPeriod.&"
+            }
+          },
+          "plannedDelivery": {
+            "logisticEventPeriod": {
+              "*": "shipment.plannedDelivery.logisticEventPeriod.&"
+            }
+          },
+          "transportCargoCharacteristics": {
+            "cargoTypeCode": "shipment.transportCargoCharacteristics.cargoTypeCode",
+            "totalGrossWeight": {
+              "*": "shipment.transportCargoCharacteristics.totalGrossWeight.&"
+            },
+            "totalGrossVolume": {
+              "*": "shipment.transportCargoCharacteristics.totalGrossVolume.&"
+            },
+            "totalPackageQuantity": {
+              "*": "shipment.transportCargoCharacteristics.totalPackageQuantity.&"
+            }
+          },
+          "shippingInformation": {
+            "holdShipment": "shipment.shippingInformation.holdShipment",
+            "shipmentPriority": "shipment.shippingInformation.shipmentPriority",
+            "isUrgentShipment": "shipment.shippingInformation.isUrgentShipment"
+          },
+          "shipFrom": {
+            "primaryId": "shipment.shipFrom.primaryId",
+            "organisationName": "shipment.shipFrom.organisationName",
+            "isResidentialAddress": "shipment.shipFrom.isResidentialAddress",
+            "address": {
+              "*": "shipment.shipFrom.&"
+            },
+            "contact": {
+              "*": {
+                "*": "shipment.shipFrom.contactFrom.&"
+              }
+            },
+            "shipTo": {
+              "primaryId": "shipment.shipTo.primaryId",
+              "organisationName": "shipment.shipTo.organisationName",
+              "isResidentialAddress": "shipment.shipTo.isResidentialAddress",
+              "address": {
+                "*": "shipment.shipTo.&"
+              },
+              "contact": {
+                "*": {
+                  "*": "shipment.shipFrom.contactTo.&"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]

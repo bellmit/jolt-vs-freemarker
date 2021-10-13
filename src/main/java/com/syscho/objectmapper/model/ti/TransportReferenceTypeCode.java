@@ -1,0 +1,275 @@
+
+package com.syscho.objectmapper.model.ti;
+
+import java.util.HashMap;
+import java.util.Map;
+import javax.annotation.processing.Generated;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+
+
+/**
+ * TransportReferenceTypeCode
+ * <p>
+ * 
+ * 
+ */
+@Generated("jsonschema2pojo")
+public enum TransportReferenceTypeCode {
+
+    AAB("AAB"),
+    AAC("AAC"),
+    AAF("AAF"),
+    AAG("AAG"),
+    AAJ("AAJ"),
+    AAK("AAK"),
+    AAL("AAL"),
+    AAM("AAM"),
+    AAN("AAN"),
+    AAO("AAO"),
+    AAQ("AAQ"),
+    AAS("AAS"),
+    AAT("AAT"),
+    AAU("AAU"),
+    ABE("ABE"),
+    ABO("ABO"),
+    ABP("ABP"),
+    ABQ("ABQ"),
+    ABT("ABT"),
+    ACD("ACD"),
+    ACE("ACE"),
+    ACK("ACK"),
+    ACL("ACL"),
+    ACW("ACW"),
+    ACX("ACX"),
+    ADB("ADB"),
+    ADC("ADC"),
+    ADD("ADD"),
+    ADE("ADE"),
+    AE("AE"),
+    AEK("AEK"),
+    AER("AER"),
+    AES("AES"),
+    AFO("AFO"),
+    AFS("AFS"),
+    AGA("AGA"),
+    AGB("AGB"),
+    AGG("AGG"),
+    AGT("AGT"),
+    AGW("AGW"),
+    AHJ("AHJ"),
+    AHL("AHL"),
+    AHM("AHM"),
+    AHU("AHU"),
+    AID("AID"),
+    AIJ("AIJ"),
+    AIK("AIK"),
+    AIZ("AIZ"),
+    AJS("AJS"),
+    AJT("AJT"),
+    AKJ("AKJ"),
+    AKM("AKM"),
+    AKO("AKO"),
+    ALK("ALK"),
+    ALL("ALL"),
+    ALM("ALM"),
+    ALN("ALN"),
+    ALO("ALO"),
+    ALP("ALP"),
+    ALQ("ALQ"),
+    ALR("ALR"),
+    ALS("ALS"),
+    ALT("ALT"),
+    ALV("ALV"),
+    AML("AML"),
+    AMT("AMT"),
+    ANJ("ANJ"),
+    ANL("ANL"),
+    ANX("ANX"),
+    ANZ("ANZ"),
+    AOA("AOA"),
+    AP("AP"),
+    APF("APF"),
+    APH("APH"),
+    API("API"),
+    APQ("APQ"),
+    AQQ("AQQ"),
+    AQS("AQS"),
+    ARZ("ARZ"),
+    ASE("ASE"),
+    ASF("ASF"),
+    ASG("ASG"),
+    ASI("ASI"),
+    ASJ("ASJ"),
+    ASK("ASK"),
+    ASL("ASL"),
+    ASO("ASO"),
+    ASV("ASV"),
+    AUD("AUD"),
+    AUG("AUG"),
+    AUJ("AUJ"),
+    AUK("AUK"),
+    AUL("AUL"),
+    AUQ("AUQ"),
+    AUR("AUR"),
+    AUY("AUY"),
+    AUZ("AUZ"),
+    AWB("AWB"),
+    BC("BC"),
+    BFN("BFN"),
+    BM("BM"),
+    BN("BN"),
+    BO("BO"),
+    BT("BT"),
+    CAN("CAN"),
+    CD("CD"),
+    CH("CH"),
+    CK("CK"),
+    CMR("CMR"),
+    CN("CN"),
+    CNE("CNE"),
+    CO("CO"),
+    COF("COF"),
+    CR("CR"),
+    CT("CT"),
+    CU("CU"),
+    CZ("CZ"),
+    DDC("DDC"),
+    DL("DL"),
+    DM("DM"),
+    DQ("DQ"),
+    ECN("ECN"),
+    ERC("ERC"),
+    EX("EX"),
+    FC("FC"),
+    FF("FF"),
+    FI("FI"),
+    FV("FV"),
+    FX("FX"),
+    GC("GC"),
+    GN("GN"),
+    GNM("GNM"),
+    GRN("GRN"),
+    HN("HN"),
+    HS("HS"),
+    HWB("HWB"),
+    IA("IA"),
+    IDR("IDR"),
+    IP("IP"),
+    IRN("IRN"),
+    IT("IT"),
+    IV("IV"),
+    LC("LC"),
+    LI("Li"),
+    MB("MB"),
+    MF("MF"),
+    MG("MG"),
+    MH("MH"),
+    MR("MR"),
+    MS("MS"),
+    MSC("MSC"),
+    MSS("MSS"),
+    MWB("MWB"),
+    ON("ON"),
+    OSE("OSE"),
+    PB("PB"),
+    PD("PD"),
+    PFB("PFB"),
+    PIE("PIE"),
+    PK("PK"),
+    PL("PL"),
+    POR("POR"),
+    PP("PP"),
+    PQ("PQ"),
+    PR("PR"),
+    PW("PW"),
+    PY("PY"),
+    RA("RA"),
+    RCE("RCE"),
+    RCN("RCN"),
+    RF("RF"),
+    SB("SB"),
+    SD("SD"),
+    SDR("SDR"),
+    SE("SE"),
+    SN("SN"),
+    SNR("SNR"),
+    SRN("SRN"),
+    SS("SS"),
+    SSC("SSC"),
+    SZ("SZ"),
+    TL("TL"),
+    TP("TP"),
+    TRB("TRB"),
+    TRI("TRI"),
+    TS("TS"),
+    TSE("TSE"),
+    UC("UC"),
+    UCN("UCN"),
+    VA("VA"),
+    VN("VN"),
+    XA("XA"),
+    XA_4("XA4"),
+    XA_5("XA5"),
+    XA_6("XA6"),
+    XA_8("XA8"),
+    XB_1("XB1"),
+    XB_5("XB5"),
+    XB_6("XB6"),
+    XB_7("XB7"),
+    XB_9("XB9"),
+    XC_1("XC1"),
+    XC_3("XC3"),
+    XC_5("XC5"),
+    YA_1("YA1"),
+    YA_3("YA3"),
+    YA_6("YA6"),
+    YA_9("YA9"),
+    YB_4("YB4"),
+    YB_7("YB7"),
+    YB_8("YB8"),
+    YB_9("YB9"),
+    YC_1("YC1"),
+    YC_3("YC3"),
+    YC_4("YC4"),
+    YC_5("YC5"),
+    YC_6("YC6"),
+    TO("TO"),
+    TPD("TPD"),
+    TRA("TRA"),
+    IDO("IDO"),
+    LCTS("LCTS");
+    private final String value;
+    private final static Map<String, TransportReferenceTypeCode> CONSTANTS = new HashMap<String, TransportReferenceTypeCode>();
+
+    static {
+        for (TransportReferenceTypeCode c: values()) {
+            CONSTANTS.put(c.value, c);
+        }
+    }
+
+    TransportReferenceTypeCode(String value) {
+        this.value = value;
+    }
+
+    @Override
+    public String toString() {
+        return this.value;
+    }
+
+    @JsonValue
+    public String value() {
+        return this.value;
+    }
+
+    @JsonCreator
+    public static TransportReferenceTypeCode fromValue(String value) {
+        TransportReferenceTypeCode constant = CONSTANTS.get(value);
+        if (constant == null) {
+            throw new IllegalArgumentException(value);
+        } else {
+            return constant;
+        }
+    }
+
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+
+      "\\context": {
+        "name": "&1.Name",
+        "step": "&2.stepRound",
+        "instructions": "&2.ins",
+        "xsd": "xsd",
+        "*": "&1.&"
+      },
+      "\\address": {
+        "*": "&1.&"
+      },
+      "comment": "record",
+      "name": "Name",
+      "instructions": "des",
+      "ingredient": "Inputs",
+      "dummyTest": "employee",
+      "yield": "Makes",
+      "*": "&"
+    }
+  }
+]

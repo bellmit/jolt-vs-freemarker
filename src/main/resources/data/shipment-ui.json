@@ -1,0 +1,166 @@
+{
+  "creationDateTime": 1632922230778,
+  "billTo": {
+    "primaryId": "",
+    "name": ""
+  },
+  "shipment": {
+    "primaryId": "",
+    "carrierName": "name",
+    "shipTo": {
+      "primaryId": "",
+      "toAddress": "Primary",
+      "city": "",
+      "countryCode": "AF",
+      "name": "",
+      "postalCode": "",
+      "state": "",
+      "streetAddressOne": "",
+      "streetAddressTwo": "",
+      "streetAddressThree": "",
+      "geographicalCoordinates": {
+        "latitude": "",
+        "longitude": ""
+      },
+      "contactTo": {
+        "personName": "",
+        "communicationChannel": [
+          {
+            "communicationChannelCode": "TELEPHONE",
+            "communicationValue": "",
+            "communicationChannelName": ""
+          },
+          {
+            "communicationChannelCode": "EMAIL",
+            "communicationValue": "",
+            "communicationChannelName": ""
+          },
+          {
+            "communicationChannelCode": "WEBSITE",
+            "communicationValue": "",
+            "communicationChannelName": ""
+          },
+          {
+            "communicationChannelCode": "TELEFAX",
+            "communicationValue": "",
+            "communicationChannelName": ""
+          }
+        ]
+      },
+      "organisationName": "",
+      "isResidentialAddress": false
+    },
+    "shipFrom": {
+      "primaryId": "",
+      "fromAddress": "Priary",
+      "city": "",
+      "countryCode": "AF",
+      "name": "",
+      "postalCode": "",
+      "state": "",
+      "streetAddressOne": "",
+      "streetAddressTwo": "",
+      "streetAddressThree": "",
+      "geographicalCoordinates": {
+        "latitude": "",
+        "longitude": ""
+      },
+      "contactFrom": {
+        "personName": "",
+        "communicationChannel": [
+          {
+            "communicationChannelCode": "TELEPHONE",
+            "communicationValue": "",
+            "communicationChannelName": ""
+          },
+          {
+            "communicationChannelCode": "EMAIL",
+            "communicationValue": "",
+            "communicationChannelName": ""
+          },
+          {
+            "communicationChannelCode": "WEBSITE",
+            "communicationValue": "",
+            "communicationChannelName": ""
+          },
+          {
+            "communicationChannelCode": "TELEFAX",
+            "communicationValue": "",
+            "communicationChannelName": ""
+          }
+        ]
+      },
+      "organisationName": "",
+      "isResidentialAddress": false
+    },
+    "transportServiceCategoryType": "_10",
+    "transportCargoCharacteristics": {
+      "cargoTypeCode": "_1",
+      "totalGrossVolume": {
+        "measurementUnitCode": "MGM",
+        "value": 0
+      },
+      "totalGrossWeight": {
+        "measurementUnitCode": "MGM",
+        "value": 0
+      },
+      "totalPackageQuantity": {
+        "measurementUnitCode": "PF",
+        "value": 0
+      }
+    },
+    "plannedDelivery": {
+      "logisticEventPeriod": {
+        "beginDate": "",
+        "beginTime": "",
+        "endDate": "",
+        "endTime": ""
+      }
+    },
+    "plannedDespatch": {
+      "logisticEventPeriod": {
+        "beginDate": "",
+        "beginTime": "",
+        "endDate": "",
+        "endTime": ""
+      }
+    },
+    "transportReference": {
+      "entityId": ""
+    },
+    "shipmentItem": {
+      "itemDeclaredValue": {
+        "currencyCode": "AFN",
+        "value": 0
+      }
+    },
+    "deliveryTypeCode": "PURCHASE_ORDER",
+    "customerCode": "",
+    "note": [
+      {
+        "text": {
+          "languageCode": "AA",
+          "value": ""
+        }
+      }
+    ],
+    "actualShipDateTime": "1632922192430",
+    "actualDeliveryDateTime": "1632922192430",
+    "predictedDeliveryDateTime": "1632922192430",
+    "proofOfDeliveryDeliveryDateTime": "1632922192430",
+    "shippingInformation": {
+      "shipmentPriority": 0,
+      "isUrgentShipment": false,
+      "holdShipment": false
+    },
+    "freightTermsCode": "AA",
+    "tmReferenceNumberName": "",
+    "tmReferenceNumberValue": "",
+    "logisticUnit": {
+      "totalLoadingLength": {
+        "measurementUnitCode": "MGM",
+        "value": 0
+      }
+    }
+  }
+}
