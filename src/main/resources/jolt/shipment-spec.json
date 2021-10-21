@@ -91,18 +91,19 @@
               "*": {
                 "*": "shipment.shipFrom.contactFrom.&"
               }
+            }
+          },
+
+          "shipTo": {
+            "primaryId": "shipment.shipTo.primaryId",
+            "organisationName": "shipment.shipTo.organisationName",
+            "isResidentialAddress": "shipment.shipTo.isResidentialAddress",
+            "address": {
+              "*": "shipment.shipTo.&"
             },
-            "shipTo": {
-              "primaryId": "shipment.shipTo.primaryId",
-              "organisationName": "shipment.shipTo.organisationName",
-              "isResidentialAddress": "shipment.shipTo.isResidentialAddress",
-              "address": {
-                "*": "shipment.shipTo.&"
-              },
-              "contact": {
-                "*": {
-                  "*": "shipment.shipFrom.contactTo.&"
-                }
+            "contact": {
+              "*": {
+                "*": "shipment.shipFrom.contactTo.&"
               }
             }
           }

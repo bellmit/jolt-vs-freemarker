@@ -1,0 +1,954 @@
+{
+  "creationDateTime": null,
+  "documentStatusCode": "ADDITIONAL_TRANSMISSION",
+  "documentActionCode": "ADD",
+  "lastUpdateDateTime": null,
+  "extensions": {},
+  "avpList": [
+    {
+      "name": "fake_data",
+      "qualifierCodeName": "fake_data",
+      "qualifierCodeList": "fake_data",
+      "actionCode": "ADD",
+      "value": "fake_data",
+      "binaryValue": "fake_data",
+      "date": "fake_data",
+      "dateTime": null
+    }
+  ],
+  "entityId": "fake_data",
+  "transportInstructionId": "fake_data",
+  "transportInstructionFunction": "CONSIGNMENT",
+  "logisticServicesSeller": {
+    "primaryId": "fake_data",
+    "additionalPartyId": [
+      {
+        "typeCode": "BUYER_ASSIGNED_IDENTIFIER_FOR_A_PARTY",
+        "value": "fake_data"
+      }
+    ],
+    "address": {
+      "city": "fake_data",
+      "cityCode": "fake_data",
+      "countryCode": "AF",
+      "currencyOfPartyCode": "AFN",
+      "languageOfThePartyCode": "aa",
+      "name": "fake_data",
+      "pOBoxNumber": "fake_data",
+      "postalCode": "fake_data",
+      "state": "fake_data",
+      "streetAddressOne": "fake_data",
+      "streetAddressTwo": "fake_data",
+      "streetAddressThree": "fake_data",
+      "geographicalCoordinates": {
+        "latitude": "fake_data",
+        "longitude": "fake_data"
+      },
+      "addressDistrict": "fake_data",
+      "addressRegion": "fake_data"
+    },
+    "contact": [
+      {
+        "contactTypeCode": "AA",
+        "personName": "fake_data",
+        "departmentName": "fake_data",
+        "jobTitle": "fake_data",
+        "communicationChannel": [
+          {
+            "communicationChannelCode": "EMAIL",
+            "communicationValue": "fake_data",
+            "communicationChannelName": "fake_data"
+          }
+        ],
+        "companyName": "fake_data"
+      }
+    ],
+    "organisationName": "fake_data",
+    "addressId": "fake_data",
+    "addressType": "fake_data",
+    "isTemporaryAddress": false,
+    "areGeographicalCoordinatesOverridden": true,
+    "isResidentialAddress": false,
+    "note": {
+      "languageCode": "aa",
+      "value": "aa"
+    },
+    "addressDistrict": "fake_data",
+    "addressRegion": "fake_data",
+    "honorific": "fake_data",
+    "externalAddressId": "fake_data",
+    "name": "fake_data",
+    "timeZoneCode": "Europe/Andorra"
+  },
+  "logisticServicesBuyer": {
+    "primaryId": "fake_data",
+    "additionalPartyId": [
+      {
+        "typeCode": "BUYER_ASSIGNED_IDENTIFIER_FOR_A_PARTY",
+        "value": "fake_data"
+      }
+    ],
+    "address": {
+      "city": "fake_data",
+      "cityCode": "fake_data",
+      "countryCode": "AF",
+      "currencyOfPartyCode": "AFN",
+      "languageOfThePartyCode": "aa",
+      "name": "fake_data",
+      "pOBoxNumber": "fake_data",
+      "postalCode": "fake_data",
+      "state": "fake_data",
+      "streetAddressOne": "fake_data",
+      "streetAddressTwo": "fake_data",
+      "streetAddressThree": "fake_data",
+      "geographicalCoordinates": {
+        "latitude": "fake_data",
+        "longitude": "fake_data"
+      },
+      "addressDistrict": "fake_data",
+      "addressRegion": "fake_data"
+    },
+    "contact": [
+      {
+        "contactTypeCode": "AA",
+        "personName": "fake_data",
+        "departmentName": "fake_data",
+        "jobTitle": "fake_data",
+        "communicationChannel": [
+          {
+            "communicationChannelCode": "EMAIL",
+            "communicationValue": "fake_data",
+            "communicationChannelName": "fake_data"
+          }
+        ],
+        "companyName": "fake_data"
+      }
+    ],
+    "organisationName": "fake_data",
+    "addressId": "fake_data",
+    "addressType": "fake_data",
+    "isTemporaryAddress": true,
+    "areGeographicalCoordinatesOverridden": false,
+    "isResidentialAddress": false,
+    "note": {
+      "languageCode": "aa",
+      "value": "fake_data"
+    },
+    "addressDistrict": "fake_data",
+    "addressRegion": "fake_data",
+    "honorific": "fake_data",
+    "externalAddressId": "fake_data",
+    "name": "fake_data",
+    "timeZoneCode": "Europe/Andorra"
+  },
+  "billTo": {
+    "primaryId": "fake_data",
+    "additionalPartyId": [
+      {
+        "typeCode": "BUYER_ASSIGNED_IDENTIFIER_FOR_A_PARTY",
+        "value": "fake_data"
+      }
+    ],
+    "address": {
+      "city": "fake_data",
+      "cityCode": "fake_data",
+      "countryCode": "AF",
+      "currencyOfPartyCode": "AFN",
+      "languageOfThePartyCode": "aa",
+      "name": "fake_data",
+      "pOBoxNumber": "fake_data",
+      "postalCode": "fake_data",
+      "state": "fake_data",
+      "streetAddressOne": "fake_data",
+      "streetAddressTwo": "fake_data",
+      "streetAddressThree": "fake_data",
+      "geographicalCoordinates": {
+        "latitude": "fake_data",
+        "longitude": "fake_data"
+      },
+      "addressDistrict": "fake_data",
+      "addressRegion": "fake_data"
+    },
+    "contact": [
+      {
+        "contactTypeCode": "AA",
+        "personName": "fake_data",
+        "departmentName": "fake_data",
+        "jobTitle": "fake_data",
+        "communicationChannel": [
+          {
+            "communicationChannelCode": "EMAIL",
+            "communicationValue": "fake_data",
+            "communicationChannelName": "fake_data"
+          }
+        ],
+        "companyName": "fake_data"
+      }
+    ],
+    "organisationName": "fake_data",
+    "addressId": "fake_data",
+    "addressType": "fake_data",
+    "isTemporaryAddress": true,
+    "areGeographicalCoordinatesOverridden": false,
+    "isResidentialAddress": false,
+    "note": {
+      "languageCode": "aa",
+      "value": "fake_data"
+    },
+    "addressDistrict": "fake_data",
+    "addressRegion": "fake_data",
+    "honorific": "fake_data",
+    "externalAddressId": "fake_data",
+    "name": "fake_data",
+    "timeZoneCode": "Europe/Andorra"
+  },
+  "consignment": [
+    {
+      "primaryId": "fake_data",
+      "additionalConsignmentId": [
+        {
+          "typeCode": "CARRIER_ASSIGNED",
+          "value": "fake_data"
+        }
+      ],
+      "consignor": {
+        "primaryId": "fake_data",
+        "additionalPartyId": [
+          {
+            "typeCode": "BUYER_ASSIGNED_IDENTIFIER_FOR_A_PARTY",
+            "value": "fake_data"
+          }
+        ],
+        "address": {
+          "city": "fake_data",
+          "cityCode": "fake_data",
+          "countryCode": "AF",
+          "currencyOfPartyCode": "AFN",
+          "languageOfThePartyCode": "aa",
+          "name": "fake_data",
+          "pOBoxNumber": "fake_data",
+          "postalCode": "fake_data",
+          "state": "fake_data",
+          "streetAddressOne": "fake_data",
+          "streetAddressTwo": "fake_data",
+          "streetAddressThree": "fake_data",
+          "geographicalCoordinates": {
+            "latitude": "fake_data",
+            "longitude": "fake_data"
+          },
+          "addressDistrict": "fake_data",
+          "addressRegion": "fake_data"
+        },
+        "contact": [
+          {
+            "contactTypeCode": "AA",
+            "personName": "fake_data",
+            "departmentName": "fake_data",
+            "jobTitle": "fake_data",
+            "communicationChannel": [
+              {
+                "communicationChannelCode": "EMAIL",
+                "communicationValue": "fake_data",
+                "communicationChannelName": "fake_data"
+              }
+            ],
+            "companyName": "fake_data"
+          }
+        ],
+        "organisationName": "fake_data",
+        "addressId": "fake_data",
+        "addressType": "fake_data",
+        "isTemporaryAddress": true,
+        "areGeographicalCoordinatesOverridden": true,
+        "isResidentialAddress": true,
+        "note": {
+          "languageCode": "aa",
+          "value": "fake_data"
+        },
+        "addressDistrict": "fake_data",
+        "addressRegion": "fake_data",
+        "honorific": "fake_data",
+        "externalAddressId": "fake_data",
+        "name": "fake_data",
+        "timeZoneCode": "Europe/Andorra"
+      },
+      "consignee": {
+        "primaryId": "fake_data",
+        "additionalPartyId": [
+          {
+            "typeCode": "BUYER_ASSIGNED_IDENTIFIER_FOR_A_PARTY",
+            "value": "fake_data"
+          }
+        ],
+        "address": {
+          "city": "fake_data",
+          "cityCode": "fake_data",
+          "countryCode": "AF",
+          "currencyOfPartyCode": "AFN",
+          "languageOfThePartyCode": "aa",
+          "name": "fake_data",
+          "pOBoxNumber": "fake_data",
+          "postalCode": "fake_data",
+          "state": "fake_data",
+          "streetAddressOne": "fake_data",
+          "streetAddressTwo": "fake_data",
+          "streetAddressThree": "fake_data",
+          "geographicalCoordinates": {
+            "latitude": "fake_data",
+            "longitude": "fake_data"
+          },
+          "addressDistrict": "fake_data",
+          "addressRegion": "fake_data"
+        },
+        "contact": [
+          {
+            "contactTypeCode": "AA",
+            "personName": "fake_data",
+            "departmentName": "fake_data",
+            "jobTitle": "fake_data",
+            "communicationChannel": [
+              {
+                "communicationChannelCode": "EMAIL",
+                "communicationValue": "fake_data",
+                "communicationChannelName": "fake_data"
+              }
+            ],
+            "companyName": "fake_data"
+          }
+        ],
+        "organisationName": "fake_data",
+        "addressId": "fake_data",
+        "addressType": "fake_data",
+        "isTemporaryAddress": true,
+        "areGeographicalCoordinatesOverridden": false,
+        "isResidentialAddress": true,
+        "note": {
+          "languageCode": "aa",
+          "value": "fake_data"
+        },
+        "addressDistrict": "fake_data",
+        "addressRegion": "fake_data",
+        "honorific": "fake_data",
+        "externalAddressId": "fake_data",
+        "name": "fake_data",
+        "timeZoneCode": "Europe/Andorra"
+      },
+      "transportInstructionTerms": {
+        "transportServiceCategoryType": "10",
+        "freightTermsCode": "AA",
+        "transportServiceLevelCode": "AUTHORIZED_RETURN_SERVICE",
+        "logisticServiceRequirementCode": [
+          "2"
+        ]
+      },
+      "transportCargoCharacteristics": {
+        "cargoTypeCode": "1",
+        "totalGrossVolume": {
+          "measurementUnitCode": "MGM",
+          "value": 85.88
+        },
+        "totalGrossWeight": {
+          "measurementUnitCode": "MGM",
+          "value": 80.39
+        },
+        "totalLoadingLength": {
+          "measurementUnitCode": "MGM",
+          "value": 35.98
+        },
+        "associatedInvoiceAmount": {
+          "currencyCode": "AFN",
+          "value": 53.53
+        },
+        "declaredValueForCustoms": {
+          "currencyCode": "AFN",
+          "value": 41.68
+        },
+        "totalPackageQuantity": {
+          "measurementUnitCode": "MGM",
+          "value": 79.51
+        },
+        "totalItemQuantity": {
+          "measurementUnitCode": "MGM",
+          "value": 34.82
+        },
+        "totalShipmentDistance": {
+          "measurementUnitCode": "MGM",
+          "value": 46
+        },
+        "weightByFreightClass": [
+          {
+            "weight": 54.62,
+            "freightClassCode": "fake_data"
+          }
+        ]
+      },
+      "transportInstructionTransportMovement": [
+        {
+          "sequenceNumber": 51,
+          "transportModeCode": "00",
+          "transportLoadId": "fake_data",
+          "carrier": {
+            "primaryId": "fake_data",
+            "additionalPartyId": [
+              {
+                "typeCode": "BUYER_ASSIGNED_IDENTIFIER_FOR_A_PARTY",
+                "value": "fake_data"
+              }
+            ],
+            "address": {
+              "city": "fake_data",
+              "cityCode": "fake_data",
+              "countryCode": "AF",
+              "currencyOfPartyCode": "AFN",
+              "languageOfThePartyCode": "aa",
+              "name": "fake_data",
+              "pOBoxNumber": "fake_data",
+              "postalCode": "fake_data",
+              "state": "fake_data",
+              "streetAddressOne": "fake_data",
+              "streetAddressTwo": "fake_data",
+              "streetAddressThree": "fake_data",
+              "geographicalCoordinates": {
+                "latitude": "fake_data",
+                "longitude": "fake_data"
+              },
+              "addressDistrict": "fake_data",
+              "addressRegion": "fake_data"
+            },
+            "contact": [
+              {
+                "contactTypeCode": "AA",
+                "personName": "fake_data",
+                "departmentName": "fake_data",
+                "jobTitle": "fake_data",
+                "communicationChannel": [
+                  {
+                    "communicationChannelCode": "EMAIL",
+                    "communicationValue": "fake_data",
+                    "communicationChannelName": "fake_data"
+                  }
+                ],
+                "companyName": "fake_data"
+              }
+            ],
+            "organisationName": "fake_data",
+            "addressId": "fake_data",
+            "addressType": "fake_data",
+            "isTemporaryAddress": false,
+            "areGeographicalCoordinatesOverridden": false,
+            "isResidentialAddress": false,
+            "note": {
+              "languageCode": "aa",
+              "value": "fake_data"
+            },
+            "addressDistrict": "fake_data",
+            "addressRegion": "fake_data",
+            "honorific": "fake_data",
+            "externalAddressId": "fake_data",
+            "name": "fake_data",
+            "timeZoneCode": "Europe/Andorra"
+          },
+          "plannedDeparture": {
+            "logisticEventTypeCode": "CUSTOMS_ARRIVAL",
+            "logisticLocation": {
+              "additionalLocationId": [
+                "fake_data"
+              ],
+              "sublocationId": "fake_data",
+              "locationSpecificInstructions": {
+                "languageCode": "aa",
+                "value": "fake_data"
+              },
+              "address": {
+                "city": "fake_data",
+                "cityCode": "fake_data",
+                "countryCode": "AF",
+                "currencyOfPartyCode": "AFN",
+                "languageOfThePartyCode": "aa",
+                "name": "fake_data",
+                "pOBoxNumber": "fake_data",
+                "postalCode": "fake_data",
+                "state": "fake_data",
+                "streetAddressOne": "fake_data",
+                "streetAddressTwo": "fake_data",
+                "streetAddressThree": "fake_data",
+                "geographicalCoordinates": {
+                  "latitude": "fake_data",
+                  "longitude": "fake_data"
+                },
+                "addressDistrict": "fake_data",
+                "addressRegion": "fake_data"
+              },
+              "contact": [
+                {
+                  "contactTypeCode": "AA",
+                  "personName": "fake_data",
+                  "departmentName": "fake_data",
+                  "jobTitle": "fake_data",
+                  "communicationChannel": [
+                    {
+                      "communicationChannelCode": "EMAIL",
+                      "communicationValue": "fake_data",
+                      "communicationChannelName": "fake_data"
+                    }
+                  ],
+                  "companyName": "fake_data"
+                }
+              ]
+            },
+            "logisticEventPeriod": {
+              "beginDate": "fake_data",
+              "beginTime": "fake_data",
+              "endDate": "fake_data",
+              "endTime": "fake_data"
+            },
+            "logisticEventDateTime": {
+              "date": "fake_data",
+              "time": "fake_data"
+            }
+          },
+          "plannedArrival": {
+            "logisticEventTypeCode": "CUSTOMS_ARRIVAL",
+            "logisticLocation": {
+              "additionalLocationId": [
+                "fake_data"
+              ],
+              "sublocationId": "fake_data",
+              "locationSpecificInstructions": {
+                "languageCode": "aa",
+                "value": "fake_data"
+              },
+              "address": {
+                "city": "fake_data",
+                "cityCode": "fake_data",
+                "countryCode": "AF",
+                "currencyOfPartyCode": "AFN",
+                "languageOfThePartyCode": "aa",
+                "name": "fake_data",
+                "pOBoxNumber": "fake_data",
+                "postalCode": "fake_data",
+                "state": "fake_data",
+                "streetAddressOne": "fake_data",
+                "streetAddressTwo": "fake_data",
+                "streetAddressThree": "fake_data",
+                "geographicalCoordinates": {
+                  "latitude": "fake_data",
+                  "longitude": "fake_data"
+                },
+                "addressDistrict": "fake_data",
+                "addressRegion": "fake_data"
+              },
+              "contact": [
+                {
+                  "contactTypeCode": "AA",
+                  "personName": "fake_data",
+                  "departmentName": "fake_data",
+                  "jobTitle": "fake_data",
+                  "communicationChannel": [
+                    {
+                      "communicationChannelCode": "EMAIL",
+                      "communicationValue": "fake_data",
+                      "communicationChannelName": "fake_data"
+                    }
+                  ],
+                  "companyName": "fake_data"
+                }
+              ]
+            },
+            "logisticEventPeriod": {
+              "beginDate": "fake_data",
+              "beginTime": "fake_data",
+              "endDate": "fake_data",
+              "endTime": "fake_data"
+            },
+            "logisticEventDateTime": {
+              "date": "fake_data",
+              "time": "fake_data"
+            }
+          },
+          "actionCode": "ADD"
+        }
+      ],
+      "containedShipmentReference": [
+        {
+          "primaryId": "fake_data",
+          "additionalShipmentId": [
+            {
+              "typeCode": "GOODS_RECEIVER_ASSIGNED",
+              "value": "fake_data"
+            }
+          ],
+          "actionCode": "ADD"
+        }
+      ]
+    }
+  ],
+  "shipment": [
+    {
+      "transportInstructionTerms": {
+        "transportServiceCategoryType": "4",
+        "transportServiceLevelCode": "EXPRESS_SERVICE"
+      },
+      "shipFrom": {
+        "additionalPartyId": [],
+        "contact": [],
+        "primaryId": "PARTY001"
+      },
+      "note": [],
+      "chargeOverride": [],
+      "additionalShipmentId": [],
+      "primaryId": "0174c671-8b39-42ea-adf2-1e020b5fadd7",
+      "transportReference": [],
+      "shipmentItem": [
+        {
+          "transportReference": [],
+          "transactionalTradeItem": [
+            {
+              "itemName": "ACME_NACHOS",
+              "additionalTradeItemId": [],
+              "primaryId": "ACME_NACHOS",
+              "transactionalItemData": [],
+              "tradeItemQuantity": {
+                "value": 3
+              }
+            }
+          ],
+          "commodityTypeCode": [],
+          "packageTotal": [],
+          "tmReferenceNumber": [],
+          "lineItemNumber": 2,
+          "handlingInstruction": [],
+          "avpList": []
+        },
+        {
+          "transportReference": [],
+          "transactionalTradeItem": [
+            {
+              "itemName": "ACME_NACHOS",
+              "additionalTradeItemId": [],
+              "primaryId": "ACME_NACHOS",
+              "transactionalItemData": [],
+              "tradeItemQuantity": {
+                "value": 3
+              }
+            }
+          ],
+          "commodityTypeCode": [],
+          "packageTotal": [],
+          "tmReferenceNumber": [],
+          "lineItemNumber": 2,
+          "handlingInstruction": [],
+          "avpList": []
+        },
+        {
+          "transportReference": [],
+          "transactionalTradeItem": [
+            {
+              "itemName": "ACME_NACHOS",
+              "additionalTradeItemId": [],
+              "primaryId": "ACME_NACHOS",
+              "transactionalItemData": [],
+              "tradeItemQuantity": {
+                "value": 3
+              }
+            }
+          ],
+          "commodityTypeCode": [],
+          "packageTotal": [],
+          "tmReferenceNumber": [],
+          "lineItemNumber": 2,
+          "handlingInstruction": [],
+          "avpList": []
+        }
+      ],
+      "tmReferenceNumber": [
+        {
+          "referenceNumberValue": "10090",
+          "referenceNumberName": "providerShipmentId"
+        },
+        {
+          "referenceNumberValue": "Parcel",
+          "referenceNumberName": "serviceType"
+        },
+        {
+          "referenceNumberValue": "Test",
+          "referenceNumberName": "serviceLevel"
+        },
+        {
+          "referenceNumberValue": "10057",
+          "referenceNumberName": "providerShipmentId"
+        },
+        {
+          "referenceNumberValue": "Parcel",
+          "referenceNumberName": "serviceType"
+        }
+      ],
+      "shipTo": {
+        "additionalPartyId": [],
+        "address": {
+          "city": "Rockville",
+          "cityCode": "Rockville",
+          "countryCode": "US",
+          "postalCode": "20850",
+          "streetAddressOne": "9713 Key West Ave"
+        },
+        "contact": [
+          {
+            "personName": "Jack denver",
+            "communicationChannel": [
+              {
+                "communicationChannelCode": "TELEPHONE",
+                "communicationValue": "301-865-1111"
+              }
+            ]
+          }
+        ],
+        "primaryId": "PARTY001"
+      },
+      "logisticUnit": []
+    },
+    {
+      "shipFrom": {
+        "additionalPartyId": [],
+        "contact": [],
+        "primaryId": "PARTY001"
+      },
+      "note": [],
+      "chargeOverride": [],
+      "plannedDespatch": {
+        "logisticEventDateTime": {
+          "date": "2019-10-21",
+          "time": "05:00:00.000"
+        }
+      },
+      "transportInstructionTerms": {
+        "transportServiceCategoryType": "100"
+      },
+      "additionalShipmentId": [],
+      "plannedDelivery": {
+        "logisticLocation": {
+          "contact": [],
+          "additionalLocationId": []
+        },
+        "logisticEventDateTime": {
+          "date": "2019-10-21",
+          "time": "05:00:00.000"
+        },
+        "logisticEventTypeCode": "LOADING"
+      },
+      "primaryId": "0174c671-8b39-42ea-adf2-1e020b5fadd7",
+      "transportReference": [],
+      "carrier": {
+        "additionalPartyId": [],
+        "contact": [],
+        "primaryId": "BYCARRIER"
+      },
+      "shipmentItem": [
+        {
+          "transportReference": [],
+          "transactionalTradeItem": [
+            {
+              "itemName": "ACME_NACHOS",
+              "additionalTradeItemId": [],
+              "primaryId": "ACME_NACHOS",
+              "transactionalItemData": [],
+              "tradeItemQuantity": {
+                "value": 3
+              }
+            }
+          ],
+          "commodityTypeCode": [],
+          "packageTotal": [],
+          "tmReferenceNumber": [],
+          "lineItemNumber": 2,
+          "handlingInstruction": [],
+          "avpList": []
+        },
+        {
+          "transportReference": [],
+          "transactionalTradeItem": [
+            {
+              "itemName": "ACME_NACHOS",
+              "additionalTradeItemId": [],
+              "primaryId": "ACME_NACHOS",
+              "transactionalItemData": [],
+              "tradeItemQuantity": {
+                "value": 3
+              }
+            }
+          ],
+          "commodityTypeCode": [],
+          "packageTotal": [],
+          "tmReferenceNumber": [],
+          "lineItemNumber": 2,
+          "handlingInstruction": [],
+          "avpList": []
+        },
+        {
+          "transportReference": [],
+          "transactionalTradeItem": [
+            {
+              "itemName": "ACME_NACHOS",
+              "additionalTradeItemId": [],
+              "primaryId": "ACME_NACHOS",
+              "transactionalItemData": [],
+              "tradeItemQuantity": {
+                "value": 3
+              }
+            }
+          ],
+          "commodityTypeCode": [],
+          "packageTotal": [],
+          "tmReferenceNumber": [],
+          "lineItemNumber": 2,
+          "handlingInstruction": [],
+          "avpList": []
+        }
+      ],
+      "shipTo": {
+        "additionalPartyId": [],
+        "address": {
+          "city": "Rockville",
+          "cityCode": "Rockville",
+          "countryCode": "US",
+          "postalCode": "20850",
+          "streetAddressOne": "9713 Key West Ave"
+        },
+        "contact": [
+          {
+            "personName": "Jack denver",
+            "communicationChannel": [
+              {
+                "communicationChannelCode": "TELEPHONE",
+                "communicationValue": "301-865-1111"
+              }
+            ]
+          }
+        ],
+        "primaryId": "PARTY001"
+      },
+      "logisticUnit": []
+    },
+    {
+      "shipFrom": {
+        "additionalPartyId": [],
+        "contact": [],
+        "primaryId": "PARTY001"
+      },
+      "note": [],
+      "chargeOverride": [],
+      "plannedDespatch": {},
+      "transportInstructionTerms": {
+        "transportServiceCategoryType": "100"
+      },
+      "additionalShipmentId": [],
+      "plannedDelivery": {
+        "logisticLocation": {
+          "contact": [],
+          "additionalLocationId": []
+        },
+        "logisticEventTypeCode": "LOADING"
+      },
+      "primaryId": "0174c671-8b39-42ea-adf2-1e020b5fadd7",
+      "transportReference": [],
+      "carrier": {
+        "additionalPartyId": [],
+        "contact": [],
+        "primaryId": "BYCARRIER"
+      },
+      "shipmentItem": [
+        {
+          "transportReference": [],
+          "transactionalTradeItem": [
+            {
+              "itemName": "ACME_NACHOS",
+              "additionalTradeItemId": [],
+              "primaryId": "ACME_NACHOS",
+              "transactionalItemData": [],
+              "tradeItemQuantity": {
+                "value": 3
+              }
+            }
+          ],
+          "commodityTypeCode": [],
+          "packageTotal": [],
+          "tmReferenceNumber": [],
+          "lineItemNumber": 2,
+          "handlingInstruction": [],
+          "avpList": []
+        },
+        {
+          "transportReference": [],
+          "transactionalTradeItem": [
+            {
+              "itemName": "ACME_NACHOS",
+              "additionalTradeItemId": [],
+              "primaryId": "ACME_NACHOS",
+              "transactionalItemData": [],
+              "tradeItemQuantity": {
+                "value": 3
+              }
+            }
+          ],
+          "commodityTypeCode": [],
+          "packageTotal": [],
+          "tmReferenceNumber": [],
+          "lineItemNumber": 2,
+          "handlingInstruction": [],
+          "avpList": []
+        },
+        {
+          "transportReference": [],
+          "transactionalTradeItem": [
+            {
+              "itemName": "ACME_NACHOS",
+              "additionalTradeItemId": [],
+              "primaryId": "ACME_NACHOS",
+              "transactionalItemData": [],
+              "tradeItemQuantity": {
+                "value": 3
+              }
+            }
+          ],
+          "commodityTypeCode": [],
+          "packageTotal": [],
+          "tmReferenceNumber": [],
+          "lineItemNumber": 2,
+          "handlingInstruction": [],
+          "avpList": []
+        }
+      ],
+      "tmReferenceNumber": [
+        {
+          "referenceNumberValue": "10090",
+          "referenceNumberName": "abc"
+        }
+      ],
+      "shipTo": {
+        "additionalPartyId": [],
+        "address": {
+          "city": "Rockville",
+          "cityCode": "Rockville",
+          "countryCode": "US",
+          "postalCode": "20850",
+          "streetAddressOne": "9713 Key West Ave"
+        },
+        "contact": [
+          {
+            "personName": "Jack denver",
+            "communicationChannel": [
+              {
+                "communicationChannelCode": "TELEPHONE",
+                "communicationValue": "301-865-1111"
+              }
+            ]
+          }
+        ],
+        "primaryId": "PARTY001"
+      },
+      "logisticUnit": []
+    }
+  ],
+  "requiresTransportPlanning": true,
+  "senderDocumentId": "fake_data"
+}

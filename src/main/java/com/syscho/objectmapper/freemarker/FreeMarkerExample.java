@@ -7,7 +7,6 @@ import com.syscho.objectmapper.model.Contact;
 import com.syscho.objectmapper.model.DataHub;
 import com.syscho.objectmapper.model.Note;
 import freemarker.template.*;
-import org.openjdk.jmh.annotations.*;
 
 import java.io.IOException;
 import java.io.StringWriter;
@@ -15,28 +14,42 @@ import java.io.Writer;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.TimeUnit;
 
-@BenchmarkMode(Mode.AverageTime)
-@Fork(value = 1)
-@Warmup(iterations = 1)
-@Measurement(iterations = 1)
-@OutputTimeUnit(TimeUnit.MILLISECONDS)
-public class FreeMarkerTransformAlldataTypeMain {
-    
+
+/**
+ * Freemarker examples for Json to Json transformation
+ */
+public class FreeMarkerExample {
+
+    /**
+     * The Object mapper.
+     */
     static ObjectMapper objectMapper = new ObjectMapper();
 
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     * @throws IOException       the io exception
+     * @throws TemplateException the template exception
+     */
     public static void main(String[] args) throws IOException, TemplateException {
         transform();
     }
 
-    @Benchmark
+    /**
+     * Use the freemarker template to create a new json result based on input (Map,List,Object,Primitive )
+     *
+     * @throws IOException       the io exception
+     * @throws TemplateException the template exception
+     */
     public static void transform() throws IOException, TemplateException {
         Configuration cfg = FreeMarkerConfig.getConfig();
+        cfg.setClassForTemplateLoading(FreeMarkerExample.class, "\\");
 
-        List<Note> notes = DataHub.getObjectFromFilePath("data/note.json", List.class);
-        Map<String, String> map = DataHub.getObjectFromFilePath("data/map.json", Map.class);
-        Contact contact = DataHub.getObjectFromFilePath("data/contact.json", Contact.class);
+        List<Note> notes = DataHub.getObjectFromFilePath("data/jolt/note.json", List.class);
+        Map<String, String> map = DataHub.getObjectFromFilePath("data/jolt/map.json", Map.class);
+        Contact contact = DataHub.getObjectFromFilePath("data/jolt/contact.json", Contact.class);
 
         Template template = cfg.getTemplate("freemarker/basic.ftl");
         Map<String, Object> data = buildDataSet(notes, map, contact);
@@ -44,7 +57,7 @@ public class FreeMarkerTransformAlldataTypeMain {
         Writer out = new StringWriter();
         template.process(data, out);
         out.flush();
-        System.out.println(out.toString());
+        System.out.println(out);
         JsonNode jsonNode = objectMapper.readTree(out.toString());
         System.out.println(jsonNode);
     }
@@ -65,6 +78,9 @@ public class FreeMarkerTransformAlldataTypeMain {
 }
 
 
+/**
+ * The type Index of method.
+ */
 class IndexOfMethod implements TemplateMethodModel {
 
     public TemplateModel exec(List args) throws TemplateModelException {
